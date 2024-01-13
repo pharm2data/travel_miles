@@ -1,0 +1,58 @@
+locations = {'A': 1,  'B': 23, 'C': 56, 'D': 89, 'E': 101, 'F': 123, 'G': 156, 'H': 203, 'I': 225, 'J': 277, 'K': 315, 'L': 351, 'M': 388, 'N': 400, 'O': 427, 'P': 470, 'Q': 499, 'R': 529, 'S': 555, 'T': 579, 'U': 598, 'V': 604, 'W': 620, 'X': 649, 'Y': 677, 'Z': 700}
+gallons = float(input("Please enter the number of gallons of fuel in your tank:"))
+miles_per_gallon = float(input("Please enter the number of miles per gallon:"))
+maximum_miles = (gallons) * (miles_per_gallon)
+print("The maximum number of miles you can travel is:" ,maximum_miles)
+
+if maximum_miles >= 1:
+    print("You can travel to: A which is 1 mile away.")
+if maximum_miles >= 23:
+    print("You can travel to: B which is 23 mile away.")
+if maximum_miles >= 56:
+    print("You can travel to: C which is 56 mile away.")
+if maximum_miles >= 89:
+    print("You can travel to: D which is 89 mile away.")
+if maximum_miles >= 101:
+    print("You can travel to: E which is 101 mile away.")
+if maximum_miles >= 123:
+    print("You can travel to: F which is 123 mile away.")
+if maximum_miles >= 156:
+    print("You can travel to: G which is 156 mile away.")
+if maximum_miles >= 203:
+    print("You can travel to: H which is 203 mile away.")
+if maximum_miles >= 225:
+    print("You can travel to: I which is 225 mile away.")
+if maximum_miles >= 277:
+    print("You can travel to: J which is 277 mile away.")
+if maximum_miles >= 315:
+    print("You can travel to: K which is 315 mile away.")
+if maximum_miles >= 351:
+    print("You can travel to: L which is 351 mile away.")
+if maximum_miles >= 388:
+    print("You can travel to: M which is 388 mile away.")
+if maximum_miles >= 400:
+    print("You can travel to: N which is 400 mile away.")
+if maximum_miles >= 427:
+    print("You can travel to: O which is 427 mile away.")
+if maximum_miles >= 470:
+    print("You can travel to: P which is 470 mile away.")
+if maximum_miles >= 499:
+    print("You can travel to: Q which is 499 mile away.")
+if maximum_miles >= 529:
+    print("You can travel to: R which is 529 mile away.")
+if maximum_miles >= 555:
+    print("You can travel to: S which is 555 mile away.")
+if maximum_miles >= 579:
+    print("You can travel to: T which is 579 mile away.")
+if maximum_miles >= 598:
+    print("You can travel to: U which is 598 mile away.")
+if maximum_miles >= 604:
+    print("You can travel to: V which is 604 mile away.")
+if maximum_miles >= 620:
+    print("You can travel to: W which is 620 mile away.")
+if maximum_miles >= 649:
+    print("You can travel to: X which is 649 mile away.")
+if maximum_miles >= 677:
+    print("You can travel to: Y which is 677 mile away.")
+if maximum_miles >= 700:
+    print("You can travel to: Z which is 700 mile away.")
